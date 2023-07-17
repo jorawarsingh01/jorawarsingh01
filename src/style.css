@@ -1,0 +1,155 @@
+body{
+  background-color:rgb(83, 83, 83);
+  background-repeat: repeat;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media (min-width:700px){
+  
+  .login{
+    
+    margin: 10px 10px;
+    padding: 40px 50px;
+    width:50%;
+    padding-top: 20px;
+
+
+}
+  .text{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px 10px;
+    padding: 40px 50px;
+    position:right;
+    height: 100%;
+    width:50%;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  }
+@media(max-width:768px){
+ 
+ .text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin:10px;
+  padding: 10px 10px;
+
+
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     margin: 10px 10px;
+   }
+}
+
+.login{
+  
+  background-color: black;
+  justify-content: center;
+  color: aliceblue;
+  height: 100%;
+
+}
+
+.text{
+  
+  background-color: black;
+  color: aliceblue;
+  height: 100%;
+  }
+
+
+.textb{
+  background-color: rgb(172, 172, 172);
+  padding: 2px 40px;
+  border-radius: 1rem;
+}  
+
+.loginform{
+  padding-top: 10px;
+  display: flex;
+  
+}
+.loginbox{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+.fieldrow{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+
+}
+
+.fieldrow > label{
+  width: 35%;
+  padding-right: 6px;
+
+}
+
+h2{
+  margin:30px;
+  font-size:xx-large;
+}
+
+h1{
+
+   margin:1px;
+   border: 4px;
+  color: aliceblue;
+}
+
+
+
+input[type="text"],
+input[type="password"]{
+  height: 20px;
+  border: 1px;
+  background-color: rgba(130, 248, 13, 0.549);
+  text-align: left;
+  color: rgb(255, 255, 255);
+  
+}
+
+input::placeholder{
+  color: aliceblue;
+}
+
+.buttons{
+  margin: 10px;
+  cursor: pointer;
+  font-size: larger;
+  padding:5px 150px;
+  background:rgb(61, 233, 61);
+}
+.buttons:hover{
+  background-color: aliceblue;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
